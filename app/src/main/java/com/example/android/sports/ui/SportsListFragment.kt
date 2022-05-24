@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.sports
+package com.example.android.sports.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,7 +24,9 @@ import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.slidingpanelayout.widget.SlidingPaneLayout
+import com.example.android.sports.adapters.SportsAdapter
 import com.example.android.sports.databinding.FragmentSportsListBinding
+import com.example.android.sports.model.SportsViewModel
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.

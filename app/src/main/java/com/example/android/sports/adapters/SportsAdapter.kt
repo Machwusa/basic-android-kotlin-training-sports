@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.sports
+package com.example.android.sports.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
